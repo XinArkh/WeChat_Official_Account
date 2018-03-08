@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Wu Hsin's Project Report</title><link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --code-block-bg-color: inherit; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { background: rgb(181, 214, 252); text-shadow: none; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; padding-bottom: 70px; white-space: pre-wrap; overflow-x: visible; contain: layout paint; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+.typora-export #write { margin: 0px auto; }
+#write > p:first-child, #write > ul:first-child, #write > ol:first-child, #write > pre:first-child, #write > blockquote:first-child, #write > div:first-child, #write > table:first-child { margin-top: 30px; }
+#write li > table:first-child { margin-top: -20px; }
+img { max-width: 100%; vertical-align: middle; }
+input, button, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+::before, ::after, * { box-sizing: border-box; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write div, #write pre { width: inherit; }
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6 { position: relative; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+p { -webkit-margin-before: 1rem; -webkit-margin-after: 1rem; -webkit-margin-start: 0px; -webkit-margin-end: 0px; }
+.typora-export p { white-space: normal; }
+.mathjax-block { margin-top: 0px; margin-bottom: 0px; -webkit-margin-before: 0rem; -webkit-margin-after: 0rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: bold; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; margin: 4px 0px 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 80px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+pre { white-space: pre-wrap; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: var(--code-block-bg-color); position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-fences .CodeMirror.CodeMirror-wrap { top: -1.6em; margin-bottom: -1.6em; }
+.md-fences.mock-cm { white-space: pre-wrap; }
+.show-fences-line-number .md-fences { padding-left: 0px; }
+.show-fences-line-number .md-fences.mock-cm { padding-left: 40px; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; padding-top: 1em; padding-bottom: 1em; }
+.footnotes + .footnotes { margin-top: -1em; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: transparent; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: normal; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li p, li .mathjax-block { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; }
+@media print {
+  html, body { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid-page; orphans: 2; }
+  p { orphans: 4; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 1cm; padding-right: 1cm; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0mm; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 2.86rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p .md-image:only-child { display: inline-block; width: 100%; text-align: center; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.mathjax-block { white-space: pre; overflow: hidden; width: 100%; }
+p + .mathjax-block { margin-top: -1.143rem; }
+.mathjax-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: none; box-shadow: none; }
+.task-list { list-style-type: none; }
+.task-list-item { position: relative; padding-left: 1em; }
+.task-list-item input { position: absolute; top: 0px; left: 0px; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc::after, .md-toc-content::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: bold; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+.md-tag { opacity: 0.5; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: monospace; }
+code { text-align: left; }
+h1 .md-tag, h2 .md-tag, h3 .md-tag, h4 .md-tag, h5 .md-tag, h6 .md-tag { font-weight: initial; opacity: 0.35; }
+a.md-print-anchor { border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: none !important; background: transparent !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.mathjax-block .MathJax_SVG_Display { text-align: center; margin: 1em 0em; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: monospace; }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: normal; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; }
+
+
+@font-face { font-family: "PT Serif"; font-style: normal; font-weight: normal; src: local("PT Serif"), local("PTSerif-Regular"), url("./newsprint/PT_Serif-Web-Regular.ttf"); }
+@font-face { font-family: "PT Serif"; font-style: italic; font-weight: normal; src: local("PT Serif"), local("PTSerif-Italic"), url("./newsprint/PT_Serif-Web-Italic.ttf"); }
+@font-face { font-family: "PT Serif"; font-style: normal; font-weight: bold; src: local("PT Serif"), local("PTSerif-Bold"), url("./newsprint/PT_Serif-Web-Bold.ttf"); }
+@font-face { font-family: "PT Serif"; font-style: italic; font-weight: bold; src: local("PT Serif"), local("PTSerif-BoldItalic"), url("./newsprint/PT_Serif-Web-BoldItalic.ttf"); }
+:root { --active-file-bg-color: rgba(32, 43, 51, 0.63); --active-file-text-color: white; --bg-color: #f3f2ee; --text-color: #1f0909; }
+html { font-size: 16px; }
+html, body { background-color: rgb(243, 242, 238); font-family: "PT Serif", "Times New Roman", Times; color: rgb(31, 9, 9); line-height: 1.5em; }
+#write { max-width: 40em; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 1.875em; line-height: 1.6em; margin-top: 2em; }
+h2, h3 { font-size: 1.3125em; line-height: 1.15; margin-top: 2.28571em; margin-bottom: 1.15em; }
+h3 { font-weight: normal; }
+h4 { font-size: 1.125em; margin-top: 2.67em; }
+h5, h6 { font-size: 1em; }
+h1 { border-bottom: 1px solid; margin-bottom: 1.875em; padding-bottom: 0.8125em; }
+a { text-decoration: none; color: rgb(6, 85, 136); }
+a:hover, a:active { text-decoration: underline; }
+p, blockquote, .md-fences { margin-bottom: 1.5em; }
+h1, h2, h3, h4, h5, h6 { margin-bottom: 1.5em; }
+blockquote { font-style: italic; border-left: 5px solid; margin-left: 2em; padding-left: 1em; }
+ul, ol { margin: 0px 0px 1.5em 1.5em; }
+ol li { list-style-type: decimal; list-style-position: outside; }
+ul li { list-style-type: disc; list-style-position: outside; }
+.md-meta, .md-before, .md-after { color: rgb(153, 153, 153); }
+table { margin-bottom: 1.5em; font-size: 1em; }
+thead th, tfoot th { padding: 0.25em 0.25em 0.25em 0.4em; text-transform: uppercase; }
+th { text-align: left; }
+td { vertical-align: top; padding: 0.25em 0.25em 0.25em 0.4em; }
+code, .md-fences { background-color: rgb(218, 218, 218); padding-left: 1ch; padding-right: 1ch; }
+.md-fences { margin-left: 2em; margin-bottom: 3em; }
+.md-fences .CodeMirror.CodeMirror-wrap { top: -0.8em; }
+pre, code, tt { font-size: 0.875em; line-height: 1.71429em; }
+h1 { line-height: 1.3em; font-weight: normal; margin-bottom: 0.5em; }
+p + ul, p + ol { margin-top: -1em; }
+h3 + ul, h4 + ul, h5 + ul, h6 + ul, h3 + ol, h4 + ol, h5 + ol, h6 + ol { margin-top: 0.5em; }
+li > ul, li > ol { margin-top: inherit; }
+h2, h3 { margin-bottom: 0.75em; }
+hr { border-top: none; border-right: none; border-bottom: 1px solid; border-left: none; }
+h1 { border-color: rgb(197, 197, 197); }
+blockquote { border-color: rgb(186, 186, 186); color: rgb(101, 101, 101); }
+thead.md-table-edit { background-color: transparent; }
+thead { background-color: rgb(218, 218, 218); }
+tr:nth-child(2n) { background: rgb(232, 231, 231); }
+hr { border-color: rgb(197, 197, 197); }
+.task-list { padding-left: 1rem; }
+.task-list-item { padding-left: 1.5rem; list-style-type: none; }
+.task-list-item input::before { content: "√"; display: inline-block; width: 1.25rem; height: 1.6rem; vertical-align: middle; text-align: center; color: rgb(221, 221, 221); background-color: rgb(243, 242, 238); }
+.task-list-item input:checked::before, .task-list-item input[checked]::before { color: inherit; }
+#write pre.md-meta-block { min-height: 1.875rem; color: rgb(85, 85, 85); border: 0px; background: transparent; margin-left: 1em; margin-top: 1em; }
+.md-image > .md-meta { color: rgb(155, 81, 70); }
+.md-image > .md-meta { font-family: Menlo, "Ubuntu Mono", Consolas, "Courier New", "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif; }
+#write > h3.md-focus::before { left: -1.5rem; color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+#write > h4.md-focus::before { left: -1.5rem; top: 0.25rem; color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+#write > h5.md-focus::before { left: -1.5rem; color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+#write > h6.md-focus::before { left: -1.5rem; top: 0.3125rem; color: rgb(153, 153, 153); border-color: rgb(153, 153, 153); }
+.md-toc:focus .md-toc-content { margin-top: 19px; }
+.md-toc-content:empty::before { color: rgb(6, 85, 136); }
+.md-toc-item { color: rgb(6, 85, 136); }
+#write div.md-toc-tooltip { background-color: rgb(243, 242, 238); }
+#typora-sidebar { background-color: rgb(243, 242, 238); box-shadow: rgba(0, 0, 0, 0.376) 0px 6px 12px; }
+.pin-outline #typora-sidebar { background: inherit; box-shadow: none; border-right: 1px dashed; }
+.pin-outline #typora-sidebar:hover .outline-title-wrapper { border-left: 1px dashed; }
+.outline-item:hover { background-color: rgb(218, 218, 218); border-left: 28px solid rgb(218, 218, 218); border-right: 18px solid rgb(218, 218, 218); }
+.typora-node .outline-item:hover { border-right: 28px solid rgb(218, 218, 218); }
+.outline-expander::before { content: ""; font-family: FontAwesome; font-size: 14px; top: 1px; }
+.outline-expander:hover::before, .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.modal-content { background-color: rgb(243, 242, 238); }
+.auto-suggest-container ul li { list-style-type: none; }
+.megamenu-menu, #top-titlebar, #top-titlebar *, .megamenu-content { background: rgb(243, 242, 238); color: rgb(31, 9, 9); }
+.megamenu-menu-header { border-bottom: 1px dashed rgb(32, 43, 51); }
+.megamenu-menu { box-shadow: none; border-right: 1px dashed; }
+header, .context-menu, .megamenu-content, footer { font-family: "PT Serif", "Times New Roman", Times; color: rgb(31, 9, 9); }
+#megamenu-back-btn { color: rgb(31, 9, 9); border-color: rgb(31, 9, 9); }
+.megamenu-menu-header #megamenu-menu-header-title::before { color: rgb(31, 9, 9); }
+.megamenu-menu-list li a:hover, .megamenu-menu-list li a.active { color: inherit; background-color: rgb(232, 231, 223); }
+.long-btn:hover { background-color: rgb(232, 231, 223); }
+#recent-file-panel tbody tr:nth-child(2n-1) { background-color: transparent !important; }
+.megamenu-menu-panel tbody tr:hover td:nth-child(2) { color: inherit; }
+.megamenu-menu-panel .btn { background-color: rgb(210, 209, 209); }
+.btn-default { background-color: transparent; }
+.typora-sourceview-on #toggle-sourceview-btn, .show-word-count #footer-word-count { background: rgb(199, 197, 197); }
+#typora-quick-open { background-color: inherit; }
+.md-diagram-panel { margin-left: -1ch; margin-top: 24px; }
+.file-list-item-file-name { font-weight: initial; }
+.file-list-item-summary { opacity: 1; }
+.file-list-item { color: rgb(119, 119, 119); }
+.file-list-item.active { background-color: inherit; color: black; }
+.file-list-item.active .file-list-item-file-name { font-weight: bold; }
+.file-list-item { opacity: 1 !important; }
+.file-library-node.active > .file-node-background { background-color: var(--active-file-bg-color); }
+.file-tree-node.active > .file-node-content { color: var(--active-file-text-color); }
+
+
+
+
+
+
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n1434' class='md-header-anchor '></a>网络技术课程项目报告</h1><p align="center"><img src='./pic/zju.jpg' alt='校徽' /></p><hr /><p><strong>小组成员</strong></p><table><thead><tr><th style='text-align:center;' >姓名</th><th style='text-align:center;' >学号</th><th style='text-align:center;' >学院</th><th style='text-align:center;' >专业</th></tr></thead><tbody><tr><td style='text-align:center;' > 武鑫</td><td style='text-align:center;' >3150104904</td><td style='text-align:center;' >机械工程学院</td><td style='text-align:center;' >机械电子工程</td></tr><tr><td style='text-align:center;' >谭宗洋</td><td style='text-align:center;' >3150103739</td><td style='text-align:center;' >机械工程学院</td><td style='text-align:center;' >机械电子工程</td></tr></tbody></table><hr /><p><strong>项目介绍</strong></p><p>	“微信公众平台开发计划”是我们选择的<em>网络技术</em>课程大作业项目。微信公众平台，俗称微信公众号，依托社交App微信带来的强大流量，已经成为目前中国主流自媒体平台之一。微信公众号分服务号和订阅号，其中服务号的运营主要面向企业，而订阅号主要由媒体和个人维护。未经开发的公众号只能在微信官方提供的基础功能范围内使用，例如群发推文、群发消息等，这样就损失了很多灵活性。幸运的是，官方为公众平台提供了开发者模式，有一定技术能力的开发者可以自己动手，构建更加丰富的交互功能。下面的图片列举了一部分官方提供的接口权限。</p><p align="center"><img src='./pic/dev_api.png' alt='微信公众号开发者权限举例' /></p><p>	我们的大作业项目便是构建一个经过完善开发的微信公众号，可以实现多种类型的端到端（服务器-用户）交互，提供比公众号默认功能更加丰富的使用选项，并将其投入实际应用场景。</p><hr /><p><strong>项目结构</strong></p><ul><li><p>网络架构</p><p><img src='./pic/architecture.png' alt='architecture' /></p><ul><li>服务器使用阿里云服务器。</li><li>Nginx 监听 80 端口消息，对一般的网络请求直接进行处理；遇到呼叫 domain/apache 的请求，进行反向代理，将消息转给8080端口的 Apache服务器；遇到呼叫 domain/wx 的公众号相关请求，进行反向代理，将消息转到 5000 端口，由 WeRoBot 处理。</li><li>采用此种架构的历史原因在下文<strong>填坑记录</strong>部分有详细说明。</li></ul></li><li><p>文件结构</p><p><img src='./pic/files.png' alt='files' /></p><ul><li>主目录是 <em>/var/www/wx/</em>，主目录下存放的 myWeChat.py 是项目主要源文件，myWeChat.log 是源代码错误信息记录，werobot_session.sqlite3 是 SQLite 数据库文件。</li><li>myWeChat.py 调用 <em>mods_available/</em>  下实现好的各个模块，实现微信公众号的所有功能。</li><li><em>pic/</em>、<em>music/</em> 是与某些模块相关的文件夹目录，这些目录下存放与模块功能相关的文件。</li></ul></li></ul><hr /><p><strong>主要配置</strong></p><ul><li><p>微信端</p><p>​	个人用户能够申请的公众号类型只有个人订阅号，个人订阅号相比企业服务号，一部分功能被限制，例如订阅号不能够获取用户地理位置。我们在这些有限的功能支持上进行进一步开发。</p><p>​	在浏览器进入公众号后台，如下图启用并设置好服务器配置相关参数，就完成了微信端的配置工作。</p><p><img src='./pic/server_set.png' alt='微信端配置' /></p></li><li><p>服务器端</p><ul><li><p>Apache</p><p>将相关配置文件中端口号默认配置（80端口）改为8080端口，其它配置保持不变。</p><p>配置文件包括：</p><p>​	<code>/etc/apache2/ports.conf</code></p><p>​	<code>/etc/apache2/sites-available/000-default.conf</code></p></li><li><p>Nginx</p><p>设置监听端口以及反向代理的规则。</p><p>配置文件：</p><p>​	<code>/usr/local/nginx/conf/nginx.conf</code></p></li><li><p>Supervisor</p><p>作用是守护<code>werobot.run</code>进程，使其一直保持在运行状态，以免关掉终端之后进程随之关闭。</p><p>配置文件：</p><p>​	<code>/etc/supervisord.conf</code></p><p>supervisorctl 和 supervisord 命令：</p><p><img src='./pic/supervisor.png' alt='supervisor' /></p><p>使用 Supervisor 的另一个好处是它可以非常方便地开启/关闭/重启特定受管理的进程，实际经验表明，这大大提高了调试公众号服务器的效率。</p></li></ul><p>另外，为了保证以上三种服务能随服务器开机启动，需要在 <em>/etc/init.d/</em> 目录下添加对应的自启动文件。</p><p>自启动文件有：</p><p>​	<code>/etc/init.d/apache2</code></p><p>​	<code>/etc/init.d/nginx</code></p><p>​	<code>/etc/init.d/supervisord</code></p><p>所有的配置文件都已备份至附件的源代码文件夹中，并且已在有修改的区域做好了标注。</p></li></ul><hr /><p><strong>模块说明</strong></p><p>​	在研究 Apache 源码的那两天里，从它的组织结构中受到启发，对公众号支持的功能进行模块化设计，存放在根目录下的 <em>mods_available/</em> 文件夹内。这样可以提高代码组织的条理性，并便于管理。</p><p>​	项目主体采用 Python 编写，且符合PEP8标准。另外，为了进一步锻炼自己的编程能力，所有模块均采用面向对象风格编程，每一个模块是一个类。</p><ul><li><p>天气预报</p><p>用户上传自己的地理位置，公众号返回该地的当前天气及近期几日的天气情况。<img src='./pic/weather.jpg' alt='weather' />	当然用户也可以发送其它位置信息，这样返回的的就会是任意地点的天气信息。</p><p>	<em>注：目前天气模块仅对中华人民共和国境内地理位置有效</em></p><p>技术栈：</p><ul><li>ip地址--&gt;行政区划------------------<a href='http://lbsyun.baidu.com/'>百度地图开放平台 API</a></li><li>某地天气预报------------------------<a href='www.sojson.com'>JSON在线开放 API</a></li></ul></li><li><p>即时翻译</p><p>根据用户的需求，实时进行多种语言之间的相互翻译。	<img src='./pic/translate.jpg' alt='translate' /></p><p>使用方法：</p><ul><li><p><code>翻译 xxx</code></p><p>xxx 为除中文外任意语言，将该语言翻译为中文；xxx 为中文，翻译结果为英文。</p></li><li><p><code>翻译 A到B xxx</code></p><p>A 和 B 是翻译功能支持的翻译语种，通过指定 A 与 B ，可以实现特定要求的翻译。</p><p><em>注1：“翻译”、“A到B”、“xxx”区块之间的空格不是必须的，服务器处理请求时区块间的所有空格都会被除去</em></p><p><em>注2：支持语言类型有中文、日文、英文、韩文、法文、俄文、葡文、西文</em></p></li></ul><p>技术栈：</p><ul><li>语种翻译------------------------------<a href='http://ai.youdao.com/'>有道智云API</a></li></ul></li><li><p>营养查询</p><p>查询食物的主要营养成分。</p><p><img src='./pic/nutrition.jpg' alt='nutrition' /></p><p>由于没有现成的 API 供调用，所以选择爬取<a href='http://www.boohee.com/'>薄荷网</a>的营养成分数据。</p><p>技术栈：</p><ul><li>营养成分获得-------------------------Python爬虫</li></ul></li><li><p>往事</p><p>查询历史上的今天。</p><p><img src='./pic/history.jpg' alt='history' /></p><p>由于没有现成的 API供调用，所以选择爬取<a href='http://www.lssdjt.com/'>历史上的今天</a>网站的数据。</p><p>尝试在文本中添加超链接时，出现很多意想不到的问题，详见<strong>填坑记录</strong>。</p><p>技术栈：</p><ul><li>历史事件获取-------------------------Python爬虫</li></ul></li><li><p>看图识人</p><p>用户发送包含人脸的图片给公众号，公众号就可以回复针对人脸的评价，如年龄、情绪、颜值等。	<img src='./pic/face.jpg' alt='face' /></p><p>​	<em>注：图片中包含多个人脸时，将会按顺序分别给出对应评价</em></p><p>技术栈：</p><ul><li>人脸信息识别-------------------------<a href='http://www.lssdjt.com/'>Face++ 旷世人工智能开放平台 API</a></li><li>图片储存-------------------------------爬虫图片下载</li><li>图片传输-------------------------------POST请求</li></ul></li><li><p>音乐</p><p>用户发起音乐请求，公众号随机提供曲库内一首歌。曲库是事先建好的，其中收藏了固定数量的音乐。</p><p><img src='./pic/music.jpg' alt='music' /></p><p>曲库的建立借助了 Apache 服务器下的网站结构，使得通过网页访问能够访问到这些歌曲。服务器随机选择并返回一首歌的网址给微信服务器，微信服务器便可以将歌曲推送给用户。</p><p>​	<em>注1：只要发送信息的前两个字为“音乐”，便可以发起音乐请求，不管后面有没有包含其它内容</em></p><p>​	<em>注2：语音消息在处理的时候会首先转换为文字，其余与文字消息相同。在其它模块下语音转文字的处理方式同样适用</em></p><p>技术栈：</p><ul><li>曲库-------------------------------------Apache Web 服务</li></ul></li><li><p>传书</p><p>提供了一种用户和管理员沟通的机制。用户通过传书功能，可以将想要说的话发送给公众号管理员的个人邮箱管理员就可以及时获取用户的反馈。</p><p><img src='./pic/mail.jpg' alt='mail' /></p><p>该功能为每位用户设置了一小时的冷却时间，从而避免了垃圾邮件攻击。</p><p>因为STMP建立连接的过程中可能会消耗太多时间，所以将其安排为一个子线程单独运行，这样便不会超过主程序的处理时间限制。</p><p>技术栈：</p><ul><li>邮件传输-------------------------------SMTP应用、多线程</li><li>冷却时间设置-------------------------数据库记录时间戳</li></ul></li><li><p>其它功能</p><p>除了上述模块所提供的功能，还有一些规模比较小的功能，它们有的被直接写在了主程序中，有的被简单存放在模块文件夹中。</p><ul><li><p>关注消息</p><p>新增关注者时，自动向其发送一条欢迎消息。</p></li><li><p>语音处理</p><p>收到语音信息时，通过微信服务器提供的语音处理功能将其转化为文字，然后按照文字处理的规则去处理。</p></li><li><p>念诗模块</p><p>当收到的消息不属于上述功能可处理的类型时，系统调用念诗模块，即在本地的诗词库中随机调用一句诗，返回给用户。更新后的念诗模块在诗词之外，增加了功能提示，引导用户去尝试上述各个功能。</p></li><li><p>取关提示</p><p>当有用户取消关注时，自动发送一封电子邮件给管理员，注明是谁在什么时间取消了关注。</p></li></ul></li></ul><hr /><p><strong>填坑记录</strong></p><ul><li><p>在决定做微信公众号开发之前，服务器上已经搭建了一个 Apache 网站。网站访问显然需要占用80端口，而微信公众平台开发者文档也明确声明了只接受80端口的配置，如何使二者共存是一个问题。最初尝试了直接在主目录下面添加一个 <em>/wx</em> 文件夹，在里面实现公众号相关服务，但是这样似乎与原有的网站有冲突，导致微信服务器一直无法接受正确的信息。研究了两天 Apache 的配置代码，最后选择放弃。上网查找解决方案之后，选择尝试 Nginx 的反向代理功能，将与公众号有关的请求反向代理到另一个端口，同时在 WeRoBot 源文件中规定好监听这个被反向代理的端口。在配置过程中，发现 Nginx 本身可以作为一个 Web 服务器，这样与 Apache 的功能又产生冲突，比如访问网站主页的时候，有时会访问到 Apache 主页，有时会访问到 Nginx主页。选择将 Apache 的监听端口也做一个修改，将80端口让给 Nginx 。于是一般情况下网站页面由 Nginx 来负责，通过访问 <em>domain/apache</em> 触发反向代理，实现访问 Apache 服务器。最终形成上文项目结构中所展示的那种网络拓扑结构。</p></li><li><p>阿里云服务器防护机制的存在使得网络应用设置较为繁琐，如果需要使用自定义端口，必须先在阿里云后台设置该端口为开，否则默认都是关闭。</p></li><li><p>supervisor 只能由 Python2.X 来运行，但是它可以管理 Python3.X 的程序。</p></li><li><p>往事模块中，在消息中加入带有超链接的文本后，会有很大概率触发消息发送失败，但是在服务器端查看并没有发现错误，所以最可能的情况是腾讯机制的问题，网上论坛中的讨论也暗示微信的超链接文本发送并不稳定。</p><p><img src='./pic/error.jpg' alt='error' /></p><p>经测试发现，不改变模块代码，会出现服务有时故障、有时正常的情况，比如今天出故障，明天再试一试却可以正常运行。推测故障与否可能与文本消息的内容（可能含有敏感词）有关。另外，同样的文本，加上超链接会出故障，去掉超链接便可以正常发送，推测可能是官方对含超链接文本的审查力度比一般文本更大。还发现的一个影响文本能否成功发送的因素是超链接数量与文本行数的关系，比如加了一个超链接的文本，发送二十行以内是不会出故障的，加上两个超链接就会出错。而且超链接数量与最大允许发送的文本行数也不是线性的。综上各个原因，目前暂时在回复中取消超链接，只发送纯文本信息。但是，纯文本信息如果太长，还是有可能触发故障信息。所以这个问题目前暂时没有解决办法。</p></li><li><p>不要随便在域名后面加“/”符号，虽然浏览器中加上也可以正常访问，但是在请求 API 时可能会造成解析错误</p></li><li><p>微信服务器规定从请求发送到服务器响应必须在5秒以内，不然就会认为服务器故障，因此各个功能必须保证在5秒之内能够返回结果。</p></li></ul><hr /><p><strong>未来方向</strong></p><ul><li>用 Flask 框架代替 WeRoBot 连接 Nginx ，然后将 WeRoBot 连接至 Flask ，以提升微信服务器的稳健性</li><li>天气模块实现对全球任意位置天气预报的支持（获取国际天气预报，可能需要科学上网）</li><li>股票、基金、期货信息查询，区块链交易实时查询（需要科学上网）</li><li>可利用百度地图开放API支持的其它功能搭建更多应用，如路线规划、附近热点（商场、饭店等）</li><li>图片功能，为用户随机推送感兴趣的图片</li><li>利用 Apache Web 搭建短链接服务，用户提供任意网址，能返回一个长度很短的短链接</li><li>利用阿里云服务器搭建云存储功能，可接收/获取大小限定在一定范围的文件</li><li>掌握深度学习之后利用深度学习框架搭建智能聊天机器人（替代念诗模块），用到深度学习领域的自然语言处理</li><li>聊天机器人培养计划，机器人随着与人类聊天记录的累计，逐渐学会各种场景的对话，并带上用户聊天习惯中的一些个人印记，如一些用户聊天时喜欢在一句话的结尾加上“嘛”，那么他培养出来的机器人也会拥有这个习惯。本功能依然基于深度学习的自然语言处理</li><li>名著聊天机器人，以名著的语料作为训练基础，培养出语言风格与给定文学作品类似的聊天机器人</li><li>利用深度学习自然语言处理实现智能定位用户需求，用户发起请求不再需要在一句话开头标记好请求类型，机器人可以智能识别用户的需求。如用户可以直接发送“把xxx给我翻译一下”，机器人就可以得知是需要调用翻译模块</li></ul><hr /><p><strong>参考资料</strong></p><ul><li><a href='http://www.cnblogs.com/mchina/tag/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97/'>微信公众号功能开发举例——博客园</a></li><li><a href='https://www.jianshu.com/p/e22d152fae9a'>利用阿里云 ECS 搭建微信公众平台服务器——简书</a></li><li><a href='http://www.nginx.cn/doc/'>Nginx 中文文档</a></li><li><a href='http://www.cnblogs.com/wkun/p/3798816.html'>Ubuntu Nginx 开机自启动——W君——博客园</a></li><li><a href='http://www.sojson.com/blog/234.html'>免费天气API，全国天气 JSON API接口，可以获取五天的天气预报——技术博客</a></li><li><a href='http://www.supervisord.org/'>Supervisor: A Process Control System——Supervisor 3.3.3 document</a></li></ul></div>
+</body>
+</html>
