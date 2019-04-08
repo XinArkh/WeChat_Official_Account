@@ -41,7 +41,9 @@
 
 - 文件结构
 
-  ![files](./pic/files.png)
+<p align="center">
+    <img src="./pic/files.png">
+</p>
 
   - 主目录是 */var/www/wx/*，主目录下存放的 myWeChat.py 是项目主要源文件，myWeChat.log 是源代码错误信息记录，werobot_session.sqlite3 是 SQLite 数据库文件。
   - myWeChat.py 调用 *mods_available/*  下实现好的各个模块，实现微信公众号的所有功能。
@@ -57,7 +59,9 @@
 
   ​	在浏览器进入公众号后台，如下图启用并设置好服务器配置相关参数，就完成了微信端的配置工作。
 
-  ![微信端配置](./pic/server_set.png)
+<p align="center">
+    <img src="./pic/server_set.png">
+</p>
 
 - 服务器端
 
